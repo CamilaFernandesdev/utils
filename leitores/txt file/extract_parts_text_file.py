@@ -1,3 +1,25 @@
+"""Código usando para leitura do parp.
+   Classes genérica que retorna string.
+   
+   Quando utilizar:
+   - Necessária a importação da bilioteca io
+     (from io import StringIO) caso use como parâmetro de entrada
+     do pandas, como por exemplo pd.read_csv(StringIO).
+   
+Autor: Eggea
+Refatorar: pythonic way, because the autor's a java dev.
+
+"""
+
+
+import re
+
+import warnings
+import pandas as pd
+warnings.filterwarnings("ignore")
+
+
+
 # Classe Utils
 # Organizar posteriomente os módulos
 class TabelaUtils:
